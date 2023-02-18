@@ -27,7 +27,7 @@ double ResultMin(double[] inArray)
     double min = 0;
     for (int i = 0; i < inArray.Length; i++)
     {
-        if (inArray[i] < min);
+        if (inArray[i] < min)
             
             min = inArray[i];
     }
