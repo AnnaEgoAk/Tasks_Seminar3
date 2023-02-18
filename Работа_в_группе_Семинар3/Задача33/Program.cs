@@ -23,7 +23,7 @@ bool FindNumber(int[] inArray, int number)
 
 int[] arr = GetArray(5, -10, 10);
 Console.WriteLine(String.Join(", ", arr));
-int chislo = int.Parse(Console.ReadLine());
+int chislo = int.Parse(Console.ReadLine()!);
 if (FindNumber(arr, chislo))
 {
     Console.WriteLine("Да");
